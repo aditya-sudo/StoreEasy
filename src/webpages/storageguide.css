@@ -1,0 +1,17 @@
+.pic{
+    width: 100%;
+    height: 300px;
+}
+strong{
+    display: block;
+    word-wrap: break-word
+}
+tr{
+    /* display: block; */
+    border: 1px solid rgb(95, 93, 93);
+    border-radius: 5px !important;
+}
+table {
+    border: 1px solid rgb(95, 93, 93);
+    border-radius: 5px !important;
+  }
