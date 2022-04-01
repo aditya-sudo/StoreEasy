@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './webpages/home';
 import Contact from './webpages/contact';
 import Guide from './webpages/storageguide';
-import Login from './webpages/login';
+import Entry from "./component/Login/Entry";
 import About from './webpages/about';
-import Service from './webpages/services';
+import Service from './component/Services/services';
 import Index from './containers';
 function App() {
   return (
@@ -15,10 +15,13 @@ function App() {
         <Route path='/home' element={<Home />} />  
         <Route path='/contact' element={<Contact />} />
         <Route path='/guide' element={<Guide />} />
-        <Route path='/login' element={<Login />} />
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Service />} />
         </Route>
+      </Routes>
+      <Routes>
+      <Route path='/login' element={<Entry />} />
+
       </Routes>
     </BrowserRouter>
   );
