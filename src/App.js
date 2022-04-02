@@ -21,7 +21,6 @@ function App() {
       </Routes>
       <Routes>
       <Route path='/login' element={<Entry />} />
-
       </Routes>
     </BrowserRouter>
   );
