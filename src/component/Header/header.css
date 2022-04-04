@@ -1,6 +1,14 @@
-.header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+}
+.services {
+  color: white;
+}
+.vendor {
+  padding-left: 480px;
+  color: white;
 }

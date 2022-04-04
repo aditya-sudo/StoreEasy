@@ -1,22 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./header.css";
-function Header(){
-    return(
+function Header() {
+  return (
     <div className="header" class="fixed-top">
-      
-        <nav className="navbar navbar-expand navbar-dark bg-dark">
-        
+      <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/home">
             STOREASY
           </NavLink>
           <div>
-          <div>
-        <NavLink className="nav-link" to="/home">
-          List a Space
-        </NavLink>
-      </div>
+            <div>
+              <NavLink className="nav-link vendor" to="/home">
+                List a Space
+              </NavLink>
+            </div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/home">
@@ -25,15 +23,27 @@ function Header(){
                 </NavLink>
               </li>
               <div class="btn-group">
-          <button type="button" className="btn dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
-                Action
-          </button>
-          <div className="dropdown-menu">
-          <a className="dropdown-item" href="#/">Action</a>
-          <a className="dropdown-item" href="#/">Another action</a>
-          <a className="dropdown-item" href="#/">Something else here</a>
-          </div>
-            </div>
+                <button
+                  type="button"
+                  className="btn dropdown-toggle services"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  id="dropdown"
+                >
+                  Our Services
+                </button>
+                <div className="dropdown-menu" aria-labelledby="dropdown">
+                  <NavLink className="dropdown-item" to="/">
+                    Household Storage
+                  </NavLink>
+                  <NavLink className="dropdown-item" to="/">
+                    Box Storage
+                  </NavLink>
+                  <NavLink className="dropdown-item" to="/">
+                    Vehicle Storage
+                  </NavLink>
+                </div>
+              </div>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/guide">
                   Storage Guide
@@ -54,14 +64,12 @@ function Header(){
                   Login/SignUp
                 </NavLink>
               </li>
-              
             </ul>
           </div>
         </div>
       </nav>
-
     </div>
-    );
-};
+  );
+}
 
 export default Header;
