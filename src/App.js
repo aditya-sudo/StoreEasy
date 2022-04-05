@@ -8,7 +8,7 @@ import About from "./webpages/about";
 import Service from "./component/Services/services";
 import Index from "./containers";
 import Box from "./component/Services/box";
-import Household from "./component/Services/household";
+import Household from "./component/Services/HouseHoldService/household";
 import Vehicle from "./component/Services/vehicle";
 function App() {
   return (

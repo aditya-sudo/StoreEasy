@@ -33,7 +33,7 @@ function Header() {
                   Our Services
                 </button>
                 <div className="dropdown-menu" aria-labelledby="dropdown">
-                  <NavLink className="dropdown-item" to="/">
+                  <NavLink className="dropdown-item" to="/household">
                     Household Storage
                   </NavLink>
                   <NavLink className="dropdown-item" to="/">
