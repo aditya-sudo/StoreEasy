@@ -6,6 +6,10 @@
   width: 100%;
   margin-top: 5%;
 }
+.image-container-storeRoom{
+  width: -webkit-fill-available;
+  height: 500px;
+}
 .content-container {
   display: flex;
   flex-direction: row;

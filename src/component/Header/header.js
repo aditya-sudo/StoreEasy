@@ -36,10 +36,10 @@ function Header() {
                   <NavLink className="dropdown-item" to="/household">
                     Household Storage
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/">
+                  <NavLink className="dropdown-item" to="/box">
                     Box Storage
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/">
+                  <NavLink className="dropdown-item" to="/vehicle">
                     Vehicle Storage
                   </NavLink>
                 </div>

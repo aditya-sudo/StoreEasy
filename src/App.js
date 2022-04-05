@@ -7,9 +7,9 @@ import Entry from "./component/Login/Entry";
 import About from "./webpages/about";
 import Service from "./component/Services/services";
 import Index from "./containers";
-import Box from "./component/Services/box";
+import Box from "./component/Services/HouseHoldService/storeRoom";
 import Household from "./component/Services/HouseHoldService/household";
-import Vehicle from "./component/Services/vehicle";
+import Vehicle from "./component/Services/HouseHoldService/vehicle";
 function App() {
   return (
     <BrowserRouter>
