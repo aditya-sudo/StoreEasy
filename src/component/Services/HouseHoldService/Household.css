@@ -7,7 +7,7 @@
   margin-top: 5%;
 }
 .image-container-storeRoom{
-  width: -webkit-fill-available;
+  width: 100vw;
   height: 500px;
 }
 .content-container {

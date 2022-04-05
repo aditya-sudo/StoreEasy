@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router";
+import HomePageImage from "../images/homePagePic.jpg"
 import "./home.css";
 
 function Service() {
@@ -9,6 +10,7 @@ function Service() {
   }
   return (
     <div className="contact">
+      <img src={HomePageImage} alt="No preview" />
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg">
