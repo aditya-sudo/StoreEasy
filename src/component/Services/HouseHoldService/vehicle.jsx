@@ -6,8 +6,12 @@ import TextIconItems from "./TextIconItems";
 function Vehicle() {
   return (
     <div className="main-container">
-      <div className="image-container">
-        <img src={vehicleStorage} alt="No Preview available" />
+      <div>
+        <img
+          className="image-container"
+          src={vehicleStorage}
+          alt="No Preview available"
+        />
       </div>
       <div className="content-container">
         <div className="side-bar">
@@ -49,7 +53,8 @@ function Vehicle() {
             Or
             <br />
             <b>Call us at 9548761324</b>
-            <br /><br />
+            <br />
+            <br />
           </div>
           <button className="create-req">Create Request</button>
         </div>

@@ -26,22 +26,22 @@
   justify-content: center;
   margin-left: 2%;
   padding: 2%;
-  width: 400px !important;
+  width: 600px !important;
 }
 .field {
   border: none;
   border-radius: 5%;
   background-color: white;
 }
-.custom-submit-color{
+.custom-submit-color {
   background-color: #607d8b;
   color: white;
   padding: 4%;
   border-radius: 11px;
   font-weight: 800;
 }
-.custom-reset-color{
-  background-color:#dadada ;
+.custom-reset-color {
+  background-color: #dadada;
   color: grey;
   padding: 4%;
   border-radius: 11px;

@@ -1,18 +1,35 @@
 import React from "react";
 import "./about.css";
-import aboutUsImage1 from "../images/about.jpg"
-import aboutUsImage2 from "../images/about1.jpg"
-import aboutUsImage3 from "../images/about2.jpg"
-import aboutUsImage4 from "../images/about3.png"
-import aboutUsImage5 from "../images/about4.jpg"
+import aboutUsImage1 from "../images/about.jpg";
+import aboutUsImage2 from "../images/about1.jpg";
+import aboutUsImage3 from "../images/about2.jpg";
+import aboutUsImage4 from "../images/about3.png";
+import aboutUsImage5 from "../images/about4.jpg";
 function About() {
   return (
     <div className="mainAboutContainer">
       <div className="first-row-images">
-   <img src={aboutUsImage1} alt="No Preview Available" width={200} />
-   <img className="image-spacing" src={aboutUsImage2} alt="No Preview Available" width={200} />
-   <img className="image-spacing" src={aboutUsImage3} alt="No Preview Available" width={200} />
-
+        <img
+          src={aboutUsImage1}
+          alt="No Preview Available"
+          width={300}
+          height={200}
+          className="image-spacing"
+        />
+        <img
+          className="image-spacing"
+          src={aboutUsImage2}
+          alt="No Preview Available"
+          width={300}
+          height={200}
+        />
+        <img
+          className="image-spacing"
+          src={aboutUsImage3}
+          alt="No Preview Available"
+          width={300}
+          height={200}
+        />
       </div>
       <div className="content-image-flex">
         <div className="aboutUs-content">
@@ -39,15 +56,26 @@ function About() {
             our warehouse is well equipped with 24 hours security, fire alarm
             systems, smoke detectors, CCTV surveillance cameras, fire
             extinguisher systems and a whole lot more, so you can feel at ease
-            when you leave your stuff with us. �Whether you are moving out of
+            when you leave your stuff with us. Whether you are moving out of
             town, downsizing, making room at home, or even storing inventories –
             storekaro.com has a storage space to suit your needs.
           </p>
         </div>
         <div className="right-sidebar-images">
-   <img className="image-spacing" src={aboutUsImage4} alt="No Preview Available" width={200} />
-   <img className="image-spacing" src={aboutUsImage5} alt="No Preview Available" width={200} />
-
+          <img
+            className="image-spacing"
+            src={aboutUsImage4}
+            alt="No Preview Available"
+            width={280}
+            height={200}
+          />
+          <img
+            className="image-spacing"
+            src={aboutUsImage5}
+            alt="No Preview Available"
+            width={280}
+            height={200}
+          />
         </div>
       </div>
     </div>

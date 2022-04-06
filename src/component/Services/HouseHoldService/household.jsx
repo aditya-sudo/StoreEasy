@@ -6,8 +6,12 @@ import TextIconItems from "./TextIconItems";
 function Household() {
   return (
     <div className="main-container">
-      <div className="image-container">
-        <img src={householdStorage} alt="No Preview available" />
+      <div>
+        <img
+          className="image-container"
+          src={householdStorage}
+          alt="No Preview available"
+        />
       </div>
       <div className="content-container">
         <div className="side-bar">
@@ -22,8 +26,9 @@ function Household() {
             alt="No preview available"
           />
           <br />
-         
-            <div>Often we find ourselves lacking adequate room in our homes. No
+
+          <div>
+            Often we find ourselves lacking adequate room in our homes. No
             matter if you live in a large home or a small house, an apartment or
             a condo, sometimes we just need more furniture to seasonal clothing
             to wine and holiday décor. StorEasy.com can keep your things safe
@@ -31,14 +36,15 @@ function Household() {
             <span className="text-blue"> wide variety </span>
             of rental options for personal and household storage use. Rent a
             mini storage space for a few boxes, or lease a larger, garage-sized
-            space for a few rooms worth of items.</div>
-            <br />
-            <div className="text-red">
-            For any queries, feel free to contact us. No matter what your needs may be, our storage experts will gladly assist you.
-            </div>
-            <br />
-            <button className="create-req">Create Request</button>
-
+            space for a few rooms worth of items.
+          </div>
+          <br />
+          <div className="text-red">
+            For any queries, feel free to contact us. No matter what your needs
+            may be, our storage experts will gladly assist you.
+          </div>
+          <br />
+          <button className="create-req">Create Request</button>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router";
-import HomePageImage from "../images/homePagePic.jpg"
+import HomePageImage from "../images/homePagePic.jpg";
 import "./home.css";
 
 function Service() {
