@@ -1,7 +1,5 @@
 .background-image{
     background-image: url(../../images//loginPage.jpg);
-}
-.customBody{
     display: flex;
     align-items: center;
     justify-content: center;

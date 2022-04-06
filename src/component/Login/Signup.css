@@ -14,8 +14,42 @@
 .upload {
   margin-left: 100px;
 }
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #adb5bddb !important;
+  border: 1px solid #c3c3c3;
+  box-shadow: 5px 5px 10px -5px rgb(0 0 0 / 25%);
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  padding: 2%;
+  width: 400px !important;
+}
 .field {
-  background-color: #faebd8;
   border: none;
   border-radius: 5%;
+  background-color: white;
+}
+.custom-submit-color{
+  background-color: #607d8b;
+  color: white;
+  padding: 4%;
+  border-radius: 11px;
+  font-weight: 800;
+}
+.custom-reset-color{
+  background-color:#dadada ;
+  color: grey;
+  padding: 4%;
+  border-radius: 11px;
+  font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  .col-md-5 {
+    max-width: 100% !important;
+  }
 }

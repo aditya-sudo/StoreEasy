@@ -35,7 +35,7 @@ function Signup() {
       .required("Required"),
   });
   return (
-    <div>
+    <div className="main-content">
       <h1 className="my-4 font-weight-bold .display-4">Sign Up</h1>
 
       <Formik
@@ -101,11 +101,26 @@ function Signup() {
               />
             </div>
 
-            <button className="btn btn-sm btn-primary mt-3" type="submit">
+            <div className="mb-2">
+              <label htmlFor="name">Address</label>
+              <br />
+              <Field
+                as="textarea"
+                id="address"
+                name="address"
+                className="field"
+              />
+              <ErrorMessage
+                name="address"
+                render={(msg) => <div className="error">{msg}</div>}
+              />
+            </div>
+
+            <button className="btn btn-sm mt-3 custom-submit-color" type="submit">
               Submit
             </button>
             <button
-              className="btn btn-sm btn-danger mt-3 ml-3 reset"
+              className="custom-reset-color btn btn-sm mt-3 ml-3 reset"
               type="reset"
             >
               Reset
