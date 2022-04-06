@@ -1,3 +1,33 @@
-.about{
-    overflow: scroll;
+.about {
+  overflow: scroll;
+}
+.mainAboutContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.first-row-images {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  justify-content: space-evenly;
+}
+
+.content-image-flex {
+  display: flex;
+  flex-direction: row;
+}
+.aboutUs-content {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+}
+.right-sidebar-images {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    /* margin-top: 2%; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
